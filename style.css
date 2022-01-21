@@ -165,3 +165,18 @@ footer {
   font-size: 1.3em;
   padding: 7px;
 }
+
+/* ------------------------ media query ----------------------------- */
+
+@media (max-width: 600px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+  header img {
+    width: 25%;
+     margin-left: 40%; 
+  }
+}
